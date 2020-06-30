@@ -1,0 +1,33 @@
+.home {
+  min-height: 100%;
+  padding: 56px 20px;
+  width: 100%;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.search {
+  border-right: none;
+  border: 0.2rem #efefef solid;
+  box-sizing: border-box !important;
+  min-width: 20rem;
+  padding: 1rem;
+  width: 92vw;
+}
+
+.searchButton {
+  border: none;
+  cursor: pointer;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  height: 3.9rem;
+  letter-spacing: 0.1rem;
+  margin-left: 0.1rem;
+  padding: 0 1.5rem;
+  text-transform: uppercase;
+}

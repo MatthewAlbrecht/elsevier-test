@@ -1,0 +1,21 @@
+.patient {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-width: 30rem;
+  width: 92vw;
+}
+
+.patient-name {
+  font-size: 2.8rem;
+}
+
+.patient-property {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.patient-value {
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
+}

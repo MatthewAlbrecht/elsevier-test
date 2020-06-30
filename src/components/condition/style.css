@@ -1,0 +1,54 @@
+.condition {
+  transition: background-color 0.2s ease-out;
+}
+
+.condition-link {
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+.condition:nth-of-type(odd) {
+  background-color: hsl(0, 0%, 94%);
+}
+
+.condition:nth-of-type(even) {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.condition:nth-of-type(odd):hover {
+  background-color: hsl(0, 0%, 86%);
+}
+
+.condition:nth-of-type(even):hover {
+  background-color: hsl(0, 0%, 92%);
+}
+
+.condition-content {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.condition-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.condition-dateRecorded {
+  flex-shrink: 0;
+  font-size: 1.4rem;
+  margin-left: auto;
+  padding: 0 1.5rem;
+  width: 12.5rem;
+}
+
+.condition-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
